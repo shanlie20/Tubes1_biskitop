@@ -20,7 +20,7 @@ public class Ariel : Bot
 
     public override void Run()
     {
-        BodyColor = Color.Pink; 
+        BodyColor = Color.Green; 
         TurretColor = Color.Black;
         RadarColor = Color.Green;
         BulletColor = Color.Green;
@@ -52,7 +52,7 @@ public class Ariel : Bot
 
         TurnToFaceTarget(e.X, e.Y);
         SetForward(DistanceTo(e.X, e.Y));
-        if (DistanceTo(e.X, e.Y) <= 100) {
+        if (DistanceTo(e.X, e.Y) <= 100 && e.Energy > 0) {
             SetFire(3);
         }
     }

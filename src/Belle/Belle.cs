@@ -62,8 +62,8 @@ public class Belle : Bot
         double tolerance = Min(Atan(36.0 / DistanceTo(e.X, e.Y)), 45);
         turningPoint += (turningPoint < 0 ? -tolerance : tolerance);
         SetTurnRadarLeft(turningPoint);
-
-        if(isHit == 0){
+ 
+        if(isHit == 0 && DistanceTo(e.X, e.Y) <= 200){
             TurnToFaceTarget(e.X, e.Y);
             SetFire(3);
         } else {
