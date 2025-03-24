@@ -1,0 +1,15 @@
+{
+  "name": "Elsa",
+  "version": "1.0",
+  "authors": [
+    "Jessica Allen",
+    "Shannon"
+  ],
+  "description": "Bot ini akan berjalan membentuk pola persegi saat menabrak tembok dan melepaskan tembakan saat terdapat musuh.",
+  "homepage": "",
+  "countryCodes": [
+    "id"
+  ],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 10.0"
+}

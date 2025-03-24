@@ -1,0 +1,15 @@
+{
+  "name": "Moana",
+  "version": "1.0",
+  "authors": [
+    "Jessica Allen",
+    "Shannon"
+  ],
+  "description": "Bot ini akan bergerak secara sinusoidal, menjaga jarak terhadap musuh, dan mengeluarkan tembakan berdasarkan jarak musuh.",
+  "homepage": "",
+  "countryCodes": [
+    "id"
+  ],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 10.0"
+}
