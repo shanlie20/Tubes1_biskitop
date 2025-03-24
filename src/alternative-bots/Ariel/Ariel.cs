@@ -9,8 +9,7 @@ public class Ariel : Bot
 {
     int turnDirection = 1;
     int isScanned = 0;
-    int isHit = 0;
-
+    
     static void Main(string[] args)
     {
         new Ariel().Start();
