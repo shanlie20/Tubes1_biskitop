@@ -1,0 +1,15 @@
+{
+  "name": "Belle",
+  "version": "1.0",
+  "authors": [
+    "Jessica Allen",
+    "Shannon"
+  ],
+  "description": "Bot ini akan ambil posisi sebagai center guard kemudian counterattack jika ada yang menembaknya.",
+  "homepage": "",
+  "countryCodes": [
+    "id"
+  ],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 10.0"
+}
